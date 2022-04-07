@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rock+Salt&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(https://i.imgur.com/GB8xAcA.jpg);
+  background-size: 100vh;
+  height: 100vh;
+}
+
+nav {
+  background: rgb(255 255 255 / 0.45);
+  /*   color: white; */
+  /*   display: flex;
+  justify-content: space-around;
+  align-content: space-around; */
+}
+
+main {
+  background: rgb(255 255 255 / 0.45);
+  text-align: center;
+  font-size: 5vmin;
+  font-family: "Rock Salt", cursive;
+}
+
+.next {
+  height: 3rem;
+  width: 3rem;
+/*   display: flex; */
+/*   justify-content: space-around; */
+/*   align-content: space-around; */ */
+  /*   outline: 3px solid green; */
+}
+
+.prev {
+  height: 3rem;
+  width: 3rem;
+/*   display: flex; */
+/*   justify-content: space-around; */
+/*   align-content: space-around; */
+  /*   outline: 3px solid blue; */
+}
+
+.random {
+  height: 3rem;
+  width: 3rem;
+/*   display: flex; */
+/*   justify-content: space-around; */
+/*   align-content: space-around;  */
+}
